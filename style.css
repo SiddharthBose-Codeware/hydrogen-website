@@ -12,6 +12,7 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  overflow: auto;
 }
 header {
   display: flex;
@@ -51,7 +52,6 @@ header .others .view-on-github-button {
   height: 100%;
   box-sizing: border-box;
   flex-direction: column;
-  overflow: auto;
 }
 .description-box {
   display: inline-flex;
