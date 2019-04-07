@@ -51,6 +51,7 @@ header .others .view-on-github-button {
   height: 100%;
   box-sizing: border-box;
   flex-direction: column;
+  overflow: auto;
 }
 .description-box {
   display: inline-flex;
@@ -65,6 +66,26 @@ header .others .view-on-github-button {
 .description-box h1 {
   font-size: 20px;
   font-weight: 300px;
+}
+.info-box {
+  display: inline-flex;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #000000;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.info-box button {
+  border: 0;
+  background-color: #424242;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  display: inline-flex;
+  justify-content: center;
 }
 .footer {
   display: flex;
